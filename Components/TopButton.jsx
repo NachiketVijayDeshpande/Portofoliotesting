@@ -30,7 +30,7 @@ export default function TopButton(props){
            props.setToggleOf()
     if (!isScrolledcon) {
 
-      const scrollStep = window.innerHeight*5.25 / 100; // How much to scroll per interval
+      const scrollStep = window.innerHeight* 5 / 100; // How much to scroll per interval
       const scrollInterval = 10; // Interval in milliseconds
       const totalSteps = 100; // Number of steps to reach 100vh
       let stepCount = 0;
