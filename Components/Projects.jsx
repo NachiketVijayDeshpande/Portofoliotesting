@@ -48,7 +48,7 @@ export default function Projects(){
             <img className="projectimg " src={movieSearchImg}/></button>
             <div className="prjdetailsdiv">
 
-            <p>Developed a movie search application using React and integrated the OMDb API to search for movies by title. The application features dynamic search, movie details display, and a responsive interface for seamless user experience.</p>
+            <p>Developed a movie search application using javascript and integrated the OMDb API to search for movies by title. The application features dynamic search, movie details display, and a responsive interface for seamless user experience.</p>
             <div className="prjdetails">
                 <a href="https://github.com/NachiketVijayDeshpande/Movie-search">GITHUB</a>
                 <a href="https://movieratingsearch.netlify.app/">LIVE DEMO</a>
