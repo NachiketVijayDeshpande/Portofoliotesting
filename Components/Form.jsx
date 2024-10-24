@@ -40,11 +40,11 @@ const Form = React.forwardRef((props, ref) => {
           </span>
             <form className="formsection" onSubmit={onSubmit} >
               <div className="inputdiv">
-                <input type="text" required placeholder="Name" aria-label="Name" />
-                <input type="email" required placeholder="Email" aria-label="Email" />
+                <input type="text" required placeholder="Name" name='name' aria-label="Name" />
+                <input type="email" required placeholder="Email" name='email' aria-label="Email" />
               </div>
-              <input type="text" required placeholder="Subject" aria-label="Email" />
-              <input id="message" type="text" required placeholder="Message" aria-label="Email" />
+              <input type="text" required placeholder="Subject" name='subject' aria-label="Subject" />
+              <input id="message" type="text" required placeholder="Message" name='message' aria-label="message" />
                 <br />
                 <button className="formbtn"  type="submit">Submit</button>
                 {!submit&&<p className="fine-print">Get in touch</p>}
