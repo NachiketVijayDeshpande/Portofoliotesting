@@ -34,7 +34,8 @@ const Form = React.forwardRef((props, ref) => {
       <h1 className="formheead">Form</h1>
           <img id="form-img" src={profileImage}/>
           <h2>NACHIKET</h2>
-          {submit&&<h2>FORM SUBMITTED</h2>}
+          <h3>{result}</h3>         
+        {submit&&<h2>FORM SUBMITTED</h2>}
           <span className="">
             <a href="https://www.linkedin.com/in/nachiket-vijay-deshpande/">Linkedin</a>
           </span>
