@@ -31,7 +31,7 @@ export default function firstpage(){
         <div>
             <h1>Nachiket Deshpande</h1>
             <p>Frontend Developer</p>
-            <a  href="https://docs.google.com/document/d/1F3yk_YTxSyKceXE5eJCChd3kLvXOraq1/edit?usp=sharing&ouid=104586618153199560889&rtpof=true&sd=true"  target="_blank" className="top resume">Resume</a>
+            <a  href="https://docs.google.com/document/d/12rMqPbxFuuq850AmzIOakiWewQriG_ov/edit?usp=sharing&ouid=104586618153199560889&rtpof=true&sd=true"  target="_blank" className="top resume">Resume</a>
         </div>
         <div>
             <img className="logoimage" src={logo}/>
